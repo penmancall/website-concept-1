@@ -322,15 +322,84 @@ section{
 
 
 
-
-
-
-
-
-
-@media screen and (max-width: 1281px) {
-
-        .nomobile {
-            display:none;
-        }
+@media only screen and (max-device-width: 480px){
+    .carousel-container{
+        
+    }
 }
+
+
+
+
+
+@media screen and (max-width: 1280px){
+    .carousel-container{
+        display: none;}
+    .mainpage{
+        width: 100%;
+        text-align: center;
+        margin-left: 0;}
+    .headingtext1{
+        width: 60%;
+        margin-left: 20%;
+        margin-right: 20%;}
+    .headingtext2{
+        width: 60%;
+        margin-left: 20%;
+        margin-right: 20%;}
+    .button-container{
+        background-color: transparent;
+        width: 100%;
+        padding-left: 5%;
+        padding-right: 0%;
+        margin-left: auto;
+        margin-right: auto;
+    }}
+@media screen and (max-width: 350px){
+        .carousel-container{
+        display: none;}
+    .mainpage{
+        width: 100%;
+        text-align: center;
+        margin-left: 0;}
+    .headingtext1{
+        width: 60%;
+        margin-left: 20%;
+        margin-right: 20%;}
+    .headingtext2{
+        width: 60%;
+        margin-left: 20%;
+        margin-right: 20%;}
+    .button-container{
+        display: none;
+        background-color: transparent;
+        width: 100%;
+        padding-left: 5%;
+        padding-right: 0%;
+        margin-left: auto;
+        margin-right: auto;
+    }}
+}
+    
+
+
+
+//*.button-one{
+        padding-right: 7%;}
+.button-two{
+    padding-right: 7%;}
+.button-three{
+    margin-right: 7%;}
+
+.button-container{
+    overflow: hidden;
+    width: 100%;
+    height: auto;
+    margin-top: 2em;}
+.glyphicon-envelope{
+    padding-left: 12%;}
+.glyphicon-wrench{
+    padding-left: 12%;}
+.glyphicon-list-alt{
+    padding-right: 8%;
+    padding-left: 8%;}*//
