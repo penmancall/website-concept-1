@@ -316,3 +316,21 @@ section{
 }
 
 /*	end gallery */
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 480px) {
+
+        .nomobile {
+            display:none;
+        }
+}
