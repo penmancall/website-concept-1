@@ -323,52 +323,73 @@ section{
 
 
 
-@media screen and (max-width: 1280px){
+@media screen and (max-width: 1150px){
     .carousel-container{
-        display: none;}
+        display: none;
+        width: 100%;
+    }
     .mainpage{
         width: 100%;
-        text-align: center;
+        text-align: left;
         margin-left: 0;}
+    .bigheading{
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;}
+    
     .headingtext1{
-        width: 60%;
-        margin-left: 20%;
-        margin-right: 20%;}
+        width: 50%;
+        margin-top: 0%;
+        margin-left: auto;
+        margin-right: auto;}
     .headingtext2{
-        width: 60%;
-        margin-left: 20%;
-        margin-right: 20%;}
+        width: 50%;
+        margin-left:auto;
+        margin-right:auto;}
     .button-container{
         background-color: transparent;
-        width: 100%;
-        padding-left: 6.5%;
+        width: 50%;
+        padding-left: 0%;
         padding-right: 0%;
         margin-left: auto;
         margin-right: auto;
     }}
-@media screen and (max-width: 640px){
+@media screen and (max-width: 520px){
         .carousel-container{
-        display: none;}
+            display:none;
+    }
+    #mobile{
+        display: none;
+    }
     .mainpage{
+        display: block;
         width: 100%;
-        text-align: center;
+        text-align: left;
         margin-left: 0;}
-    .headingtext1{
-        width: 60%;
-        margin-left: 20%;
-        margin-right: 20%;}
-    .headingtext2{
-        width: 60%;
-        margin-left: 20%;
-        margin-right: 20%;}
-    .button-container{
-        display: inline-block;
-        background-color: transparent;
-        width: 100%;
-        padding-left: 5%;
-        padding-right: 0%;
+    .bigheading{
+        font-size: 2.2em;
+        width: 90%;
         margin-left: auto;
         margin-right: auto;}
+    
+    .headingtext1{
+        font-size: 0.6em;
+        width: 90%;
+        margin-top: 0%;
+        margin-left: auto;
+        margin-right: auto;}
+    .headingtext2{
+        width: 90%;
+        font-size: 0.6em;
+        margin-left:auto;
+        margin-right:auto;}
+    .button-container{
+        background-color: transparent;
+        width: 50%;
+        padding-left: 0%;
+        padding-right: 0%;
+        margin-left: auto;
+        margin-right: auto;
  
     .button-one .button-two .button-three{
         padding: 0 !important;}
@@ -380,23 +401,3 @@ section{
 
 
 
-
-//*.button-one{
-        padding-right: 7%;}
-.button-two{
-    padding-right: 7%;}
-.button-three{
-    margin-right: 7%;}
-
-.button-container{
-    overflow: hidden;
-    width: 100%;
-    height: auto;
-    margin-top: 2em;}
-.glyphicon-envelope{
-    padding-left: 12%;}
-.glyphicon-wrench{
-    padding-left: 12%;}
-.glyphicon-list-alt{
-    padding-right: 8%;
-    padding-left: 8%;}*//
