@@ -354,7 +354,7 @@ section{
         margin-left: auto;
         margin-right: auto;
     }}
-@media screen and (max-width: 520px){
+@media screen and (max-width: 640px){
         .carousel-container{
             display:none;
     }
@@ -367,20 +367,21 @@ section{
         text-align: left;
         margin-left: 0;}
     .bigheading{
-        font-size: 2.2em;
+        font-size: 5em;
         width: 90%;
+        margin-bottom: 10%;
         margin-left: auto;
         margin-right: auto;}
     
     .headingtext1{
-        font-size: 0.6em;
+        font-size: 2em;
         width: 90%;
         margin-top: 0%;
         margin-left: auto;
         margin-right: auto;}
     .headingtext2{
         width: 90%;
-        font-size: 0.6em;
+        font-size: 2em;
         margin-left:auto;
         margin-right:auto;}
     .button-container{
