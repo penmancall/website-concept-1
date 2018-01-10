@@ -371,7 +371,7 @@ section{
         margin-right: auto;
     }}
 }
-@media only screen and (max-device-width: 640px){
+@media only screen and (min-device-width: 640px){
         .carousel-container{
         display: none;}
     .mainpage{
