@@ -324,7 +324,7 @@ section{
 
 @media only screen and (max-device-width: 480px){
     .carousel-container{
-        
+        display: none;
     }
 }
 
@@ -355,7 +355,7 @@ section{
         margin-left: auto;
         margin-right: auto;
     }}
-@media screen and (max-width: 350px){
+@media screen and (max-device-width: 640px){
         .carousel-container{
         display: none;}
     .mainpage{
