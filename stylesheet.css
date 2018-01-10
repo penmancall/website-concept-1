@@ -1,0 +1,318 @@
+/* navbar styling*/
+.container-fluid{
+    padding-top: 2%;
+    background-color: white;}
+.icon-bar{
+    background-color: white;}
+.navbar-inverse{
+    background-color: white;
+    border-color: white;
+    font-family: "Didact Gothic";}
+.navbar-brand{
+    background: transparent;
+    font-family: "Pacifico";}
+.navbar-brand:hover{
+    color: grey!important;
+    opacity: 0.4;
+    transition: opacity 0.3s;}
+.navbar-collapse{
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;}
+.icons{
+    margin-top: 0.5%;}
+.nav{
+    color: grey!important;
+    background-color: white !important;}
+.nav a:hover{
+    opacity: 0.4;
+    transition: opacity 0.3s;
+    color:black!important;
+    background-color: white !important;}
+.dropdown-toggle{
+    opacity: 1;
+    transition: opacity 0.6s;
+    color: grey!important;
+    background-color: white!important;}
+.navbar-toggle{
+    background-color: darkgrey !important;
+    border: none !important;}
+
+
+/* mainpage */
+
+.mainpage{
+    margin-top: 5%;
+    width: 40.2%;
+    height: auto;
+    background-color: transparent;
+    margin-left: 1.8%;}
+
+.headingtext2{
+    color: black;
+    padding-top: 1em;
+    font-size: 1.1em;
+    font-family: "Didact Gothic";}
+
+.bigheading{
+    font-family: "Roboto";
+    color: black;
+    font-weight: 900;
+    font-size: 5.1em;}
+.headingtext1{
+    color: black;
+    margin-top: 6%;
+    font-size: 1.1em;
+    font-family: "Didact Gothic";}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.btn{
+    opacity: 0.7;
+    transition: opacity 0.5s;
+    font-size: 0.9em;
+    color: black;
+    background-color: #e9e9e9;
+    font-family: Roboto;
+    font-weight: 400;
+    text-align: center;}
+.btn:hover{
+    opacity: 1;
+    transition: opacity 0.5s;}
+.button-one{
+        padding-right: 7%;}
+.button-two{
+    padding-right: 7%;}
+.button-three{
+    margin-right: 7%;}
+
+.button-container{
+    overflow: hidden;
+    width: 100%;
+    height: auto;
+    margin-top: 2em;}
+.glyphicon-envelope{
+    padding-left: 12%;}
+.glyphicon-wrench{
+    padding-left: 12%;}
+.glyphicon-list-alt{
+    padding-right: 8%;
+    padding-left: 8%;}
+
+
+
+
+/*=== Animations ===*/
+
+.animate {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;}
+
+  
+/*=== delays ===*/
+
+
+.bigheading{
+    font-family: "Roboto";
+    color: black;
+    font-weight: 900;
+    font-size: 5.1em;}
+.headingtext1{
+    color: black;
+    margin-top: 6%;
+    font-size: 1.1em;
+    font-family: "Didact Gothic";}
+
+
+
+
+
+.headingfade{
+-webkit-animation-delay: 0.3s;
+-moz-animation-delay: 0.3s;
+animation-delay: 0.3s;}
+
+.paragraphfade {
+-webkit-animation-delay: 1s;
+-moz-animation-delay: 1s;
+animation-delay: 1s;}
+
+.button-one {
+align-content: center;
+-webkit-animation-delay: 2.2s;
+-moz-animation-delay: 2.2s;
+animation-delay: 2.2s;}
+.button-two {
+    align-content: center;
+-webkit-animation-delay: 2.3s;
+-moz-animation-delay: 2.3s;
+animation-delay: 2.3s;}
+.button-three {
+-webkit-animation-delay: 2.4s;
+-moz-animation-delay: 2.4s;
+animation-delay: 2.4s;}
+
+.gallery-fade{
+-webkit-animation-delay: 1.5s;
+-moz-animation-delay: 1.5s;
+animation-delay: 1.5s;}
+
+.carousel-fade{
+    -webkit-animation-delay: 1s;
+-moz-animation-delay: 1s;
+animation-delay: 1s;
+    
+}
+
+@-webkit-keyframes fadeInUp {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);}
+  to{
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;}}
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);}
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;}}
+.fadeInUp {
+  -webkit-animation-name: fadeInUp;
+  animation-name: fadeInUp;}
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0;}
+  to {
+    opacity: 1;}}
+@keyframes fadeIn {
+  from {
+    opacity: 0;}
+  to {
+    opacity: 1;}}
+.fadeIn {
+    -webkit-animation-name: fadeIn;
+	animation-name: fadeIn;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.carousel-container{
+    position: static;
+    overflow: hidden;
+    border-radius: 1em;
+    width: 48%;
+    margin-left: 50%;
+    margin-top: -30%;}
+
+.my-carousel{
+    width: 100%;
+    overflow: hidden;
+    height: 100%;}
+
+
+
+
+
+
+/*	general	*/
+
+section{
+    padding: 50px 0;}
+.bigheading{
+    font-family: "Roboto";
+    color: black;
+    font-weight: 900;
+    font-size: 5.1em;}
+.headingtext1{
+    color: black;
+    margin-top: 6%;
+    font-size: 1.1em;
+    font-family: "Didact Gothic";}
+.gallery-title{
+    margin-top: -7%;
+    font-family: "Roboto";
+    color: black;
+    font-weight: 900;
+    text-align: center;}
+.gallery-title2{
+    font-family: "Didact Gothic";
+    color: black;
+    text-align: center;
+    font-size: 1.1em;}
+
+.filter-button{
+    font-size: 18px;
+    border: 2px solid #3F6184;
+	padding:5px 10px;
+    text-align: center;
+    color: #3F6184;
+    margin-bottom: 30px;
+	background:transparent;
+}
+.filter-button:hover,
+.filter-button:focus,
+.filter-button.active{
+    color: #ffffff;
+    background-color:#3F6184;
+	outline:none;
+}
+.gallery_product{
+    margin: 0px;
+	padding:0;
+	position:relative;
+}
+.gallery_product .img-info{
+	position: absolute;
+    background: rgba(0,0,0,0.5);
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 20px;
+	overflow:hidden;
+	color:#fff;
+	top:0;
+	display:none;
+	   -webkit-transition: 2s;
+    transition: 2s;
+}
+
+.gallery_product:hover .img-info{
+	display:block;
+   -webkit-transition: 2s;
+    transition: 2s;
+}
+
+/*	end gallery */
