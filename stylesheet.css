@@ -354,7 +354,7 @@ section{
         margin-left: auto;
         margin-right: auto;
     }}
-@media screen and (max-width: 640px){
+@media screen and (max-width: 720px){
         .carousel-container{
             display:none;
     }
@@ -367,37 +367,32 @@ section{
         text-align: left;
         margin-left: 0;}
     .bigheading{
-        font-size: 5em;
+        font-size: 4em;
         width: 90%;
         margin-bottom: 10%;
         margin-left: auto;
         margin-right: auto;}
     
     .headingtext1{
-        font-size: 1.2em;
+        font-size: 1.1em;
         width: 90%;
         margin-top: 0%;
         margin-left: auto;
         margin-right: auto;}
     .headingtext2{
         width: 90%;
-        font-size: 1.2em;
+        font-size: 1.1em;
         margin-left:auto;
         margin-right:auto;}
     .button-container{
+        display: none;
         background-color: transparent;
         width: 50%;
         padding-left: 0%;
         padding-right: 0%;
         margin-left: auto;
-        margin-right: auto;
- 
-    .button-one .button-two .button-three{
-        padding: 0 !important;}
-    .glyphicon-envelope .glyphicon-wrench .glyphicon-list-alt {
-        padding: 0 !important;
-    }
-}
+        margin-right: auto;}
+
 }
 
 
