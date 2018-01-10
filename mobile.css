@@ -1,8 +1,12 @@
 .bigheading{
-    color: aqua;
+    text-align: center;
+    color: black;
     font-size: 2em;
-    font-family: "Roboto";
-}
+    font-family: "Roboto";}
+.headingtext1 .headingtext2{
+    text-align: center;
+    color: black;
+    font-family: "Didact Gothic";}
 .mainpage{
     width: 100%;
 }
