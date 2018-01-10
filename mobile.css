@@ -3,7 +3,11 @@
     color: black;
     font-size: 2em;
     font-family: "Roboto";}
-.headingtext1 .headingtext2{
+.headingtext1{
+    text-align: center;
+    color: black;
+    font-family: "Didact Gothic";}
+.headingtext2{
     text-align: center;
     color: black;
     font-family: "Didact Gothic";}
