@@ -369,7 +369,7 @@ section{
         width: 100% !important;
         text-align: left;
         float: left;
-        margin: 5%;
+        margin-bottom: 10%;
     }
     .mainpage{
         display: block;
