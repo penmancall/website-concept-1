@@ -42,9 +42,10 @@
 /* mainpage */
 
 .mainpage{
+    background-color: cyan;
     margin-top: 5%;
     width: 40.2%;
-    height: auto;
+    height: 100%;
     background-color: transparent;
     margin-left: 1.8%;}
 
@@ -352,14 +353,23 @@ section{
         padding-left: 0%;
         padding-right: 0%;
         margin-left: auto;
-        margin-right: auto;
-    }}
+        margin-right: auto;}}
+
+
 @media screen and (max-width: 720px){
         .carousel-container{
-            display:none;
-    }
+            display:none;}
+    
     #mobile{
-        display: none;
+        display: none;}
+    .glyphicon-nobtn{
+        visibility: visible !important;}
+    
+    .mobilebtn{
+        width: 50% !important;
+        text-align: left;
+        float: left;
+        margin: 5%;
     }
     .mainpage{
         display: block;
@@ -384,16 +394,6 @@ section{
         font-size: 1.1em;
         margin-left:auto;
         margin-right:auto;}
-    .button-container{
-        display: none;
-        background-color: transparent;
-        width: 50%;
-        padding-left: 0%;
-        padding-right: 0%;
-        margin-left: auto;
-        margin-right: auto;}
 
 }
-
-
 
