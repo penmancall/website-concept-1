@@ -1,5 +1,5 @@
 .navbar-inverse{
-    background-color: black;
+    background-color: transparent;
     border: none !important;}
 .navbar-brand{
     font-family: "Pacifico";
@@ -57,24 +57,59 @@ ul.social-buttons li{
 	display: inline;
 	margin: 0 5px;}
 
-
 /** set hover color to correct hex value for that brand from https://brandcolors.net/**/
 .social-buttons a.icoInstagram:hover{
-	background-color: #8134AF;}
+	background-color: #8134AF;
+    opacity: 1;
+    transition: opacity 0.5s;}
 .social-buttons a.icoFacebook:hover{
-	background-color:#3B5998;}
+	background-color:#3B5998;
+    opacity: 1;
+    transition: opacity 0.5s;}
 .social-buttons a.icoLinkedin:hover{
-	background-color:#0077b5;}
+	background-color:#0077b5;
+    opacity: 1;
+    transition: opacity 0.5s;}
 .social-buttons a.icoPinterest:hover{
-	background-color:#BD081C;}
+	background-color:#BD081C;
+    opacity: 1;
+    transition: opacity 0.5s;}
 .social-buttons a.icoGithub:hover{
-	background-color:#6e5494;}
-.social-buttons a.icoVimeo:hover{
-	background-color:#0590B8;}
+	background-color:#6e5494;
+    opacity: 1;
+    transition: opacity 0.5s;}
+
 .social-buttons a.icoMail:hover{
-	background-color:#007bb7;}
-a.social-link{
- background-color: lightgray;}
+	background-color:#007bb7;
+    opacity: 1;
+    transition: opacity 0.5s;}
+
+a.icoInstagram{
+ background-color: #8134AF;
+ opacity: 0.5;
+ transition: opacity 1s;}
+a.icoFacebook{
+ background-color: #3B5998;
+ opacity: 0.5;
+ transition: opacity 1s;}
+a.icoLinkedin{
+ background-color: #0077b5;
+ opacity: 0.5;
+ transition: opacity 1s;}
+a.icoPinterest{
+ background-color: #BD081C;
+ opacity: 0.5;
+ transition: opacity 1s;}
+a.icoGithub{
+ background-color: #6e5494;
+ opacity: 0.5;
+ transition: opacity 1s;}
+a.icoMail{
+ background-color: #007bb7;
+ opacity: 0.5;
+ transition: opacity 1s;}
+
+
 
 
 .social-circle li.social-list a.social-link{
@@ -117,16 +152,37 @@ a.social-link{
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**resizing jumbotron and elements for mobile phone 720px**/
 @media screen and (max-width: 720px){
     .jumbotron{
+        padding: 0!important;
+        margin: !important;
         background-color: transparent;
         margin-bottom: 50px;}
    .text-center{
         text-align: center;}
    .text-heading{
+       padding-left: 0!important;
+       padding-bottom: 30px;
         text-align: center;}
    .text-subheading{
+       padding-left: 0 !important;
+       width: 50%;
+       margin: auto;
         text-align: center;}
     
     
@@ -154,7 +210,7 @@ a.social-link{
         margin-left: auto;
         margin-right: auto;}
     .social-circle{
-        padding-left: 13px;}
+        padding-left: 0px;}
         
         
         
