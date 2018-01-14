@@ -16,7 +16,7 @@
     margin-bottom: 50px;}
 .text-center{
     text-align: left;
-    padding-left: 20px}
+    padding-left: 20px;}
 
 .text-heading{
     padding-bottom:;
@@ -117,24 +117,51 @@ a.social-link{
 
 
 
-
+/**resizing jumbotron and elements for mobile phone 720px**/
 @media screen and (max-width: 720px){
-    .social-circle li.social-list a.social-link{
-	display:inline-block;
-	position:relative;
-	margin:0 auto 0 auto;
-	-moz-border-radius:50%;
-	-webkit-border-radius:50%;
-	border-radius:50%;
-	text-align:center;
-	width: 30px;
-	height: 30px;
-	font-size:11px;}
-.social-circle li.social-list i{
-	margin:0;
-	line-height:30px;
-	text-align: center;}
+    .jumbotron{
+        background-color: transparent;
+        margin-bottom: 50px;}
+   .text-center{
+        text-align: center;}
+   .text-heading{
+        text-align: center;}
+   .text-subheading{
+        text-align: center;}
     
-.contact-links{
-    margin-top:  0;
-    margin-left: 0;}}
+    
+    
+    .social-circle li.social-list a.social-link{
+        display:inline-block;
+	    position:relative;
+	    margin:0 auto 0 auto;
+	    -moz-border-radius:50%;
+	    -webkit-border-radius:50%;
+	    border-radius:50%;
+	    text-align:center;
+	    width: 25px;
+	    height: 25px;
+	    font-size:9px;}
+    .social-circle li.social-list i{
+	    margin:0;
+	    line-height:25px;
+	    text-align: center;}
+    .contact-links{
+        padding-right:;
+        width: 100%;
+        margin-top:  0;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;}
+    .social-circle{
+        padding-left: 13px;}
+        
+        
+        
+        ul.social-buttons{
+	list-style: none;
+	display: inline;}
+ul.social-buttons li{
+	display: inline;
+	margin: 0 3px;}
+    }}
