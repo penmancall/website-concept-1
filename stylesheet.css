@@ -43,11 +43,12 @@
  ================= */
 
 .contact-links{
-    width: 100%;
-    margin-right: auto;
-    padding-left: 0px;
+    background-color: transparent;
+    width: 400px;
+    padding-right: 0;
+    padding-left: 0;
     margin-top: -65px;
-    margin-left: 72%;}
+    margin-left: 920px}
 
 /* footer social icons */
 ul.social-buttons{
@@ -146,6 +147,48 @@ a.icoMail{
 	-o-transition: all 1s;
 	-ms-transition: all 1s;
 	transition: all 1s;}
+
+
+@media screen and (max-width: 1280px){
+    
+.contact-links{
+    background-color: transparent;
+    width: 400px;
+    padding-right: 0;
+    padding-left: 0;
+    margin-top: -65px;
+    margin-left: 820px;}}
+@media screen and (max-width: 1120px){
+    
+.contact-links{
+    background-color: transparent;
+    width: 400px;
+    padding-right: 0;
+    padding-left: 0;
+    margin-top: -65px;
+    margin-left: 670px;}}
+
+@media screen and (max-width: 1080px){
+    
+.contact-links{
+    background-color: transparent;
+    width: 400px;
+    padding-right: 0;
+    padding-left: 0;
+    margin-top: -65px;
+    margin-left: 480px;}}
+@media screen and (max-width: 900px){
+    
+.contact-links{
+    background-color: transparent;
+    width: 400px;
+    padding-right: 0;
+    padding-left: 0;
+    margin-top: 0px;
+    margin-left: -20px;}}
+
+
+
 
 /**resizing jumbotron and elements for mobile phone 720px**/
 @media screen and (max-width: 720px){
@@ -265,8 +308,39 @@ animation-delay: 1.6s;}
 
 
 
+.nav-icon:hover{
+	-moz-transform: rotate(90deg);
+	-webkit-transform: rotate(90deg);
+	-ms--transform: rotate(90deg);
+	transform: rotate(90deg);
+    opacity: 0.3;
+	-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	-ms-transition: all 0.5s;
+	transition: all 0.5s;}
+
+
+.nav-icon{
+    width: 120px;
+    height: auto;
+    opacity: 1;
+	-webkit-transition: all 1s;
+	-moz-transition: all 1s;
+	-o-transition: all 1s;
+	-ms-transition: all 1s;
+	transition: all 1s;}
+
+
+
+
+
+
+
 
 .row{
+    width: 100%;
+    max-width: 100% !important;
     padding-left: 20px;
     padding-right: 20px;
 }
