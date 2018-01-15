@@ -18,15 +18,15 @@
     text-align: left;
     padding-left: 20px;}
 .text-heading{
-    padding-bottom:;
+    font-size: 5em!important;
     font-family: "Roboto";
     font-weight: 900;}
 .text-subheading{
-    color: darkgrey;
+    color: darkgray;
     padding-top: 25px;
     padding-top: auto;
     font-family: "Roboto";
-    font-weight: 400;
+    font-weight: 400!important;
     font-size: 1.4em!important;}
 
 
@@ -147,25 +147,6 @@ a.icoMail{
 	-ms-transition: all 1s;
 	transition: all 1s;}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**resizing jumbotron and elements for mobile phone 720px**/
 @media screen and (max-width: 720px){
     .text-subheading{
@@ -219,15 +200,6 @@ a.icoMail{
 	    display: inline;
         margin: 0 3px;}}
 
-
-
-
-
-
-
-
-
-
 /** fade in animations**/
 .animate {
   -webkit-animation-duration: 1s;
@@ -276,3 +248,33 @@ animation-delay: 1.5s;}
 -webkit-animation-delay: 1.6s;
 -moz-animation-delay: 1.6s;
 animation-delay: 1.6s;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.row{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.col-sm-6 col-md-4{
+    
+}
+.thumbnail{
+
+
+}
