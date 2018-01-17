@@ -6,6 +6,24 @@
     font-size: 1.5em;
     padding-top: 1.1em;}
 
+.navbar-toggle{
+    margin-top: 30px;
+    padding: 20px;
+    background-color: darkgrey !important;
+    opacity: 0.5;
+    transition: opacity 0.5s;
+    border: none;}
+.navbar-toggle:hover{
+    opacity: 1;
+    transition: opacity 0.5s;}
+.dropdown{
+    margin-top: 25px;
+    margin-right: 0px;}
+
+
+
+
+
 /**.fa is social icons in navbar**/
 .fa{
     font-size: 2.2em!important;}
@@ -47,8 +65,8 @@
     width: 400px;
     padding-right: 0;
     padding-left: 0;
-    margin-top: -65px;
-    margin-left: 920px}
+    margin-top: -70px;
+    margin-left: 965px}
 
 /* footer social icons */
 ul.social-buttons{
@@ -149,41 +167,26 @@ a.icoMail{
 	transition: all 1s;}
 
 
+@media screen and (min-width: 1580px max-width: 1580px;){
+.contact-links{
+    margin-left: 1915px!important;}}
+@media screen and (min-width: 1580px){
+.contact-links{
+    margin-left: 1315px!important;}}
+@media screen and (min-width: 1400px){
+.contact-links{
+    margin-left: 1125px;}}
 @media screen and (max-width: 1280px){
-    
 .contact-links{
-    background-color: transparent;
-    width: 400px;
-    padding-right: 0;
-    padding-left: 0;
-    margin-top: -65px;
-    margin-left: 820px;}}
+    margin-left: 835px;}}
 @media screen and (max-width: 1120px){
-    
 .contact-links{
-    background-color: transparent;
-    width: 400px;
-    padding-right: 0;
-    padding-left: 0;
-    margin-top: -65px;
-    margin-left: 670px;}}
-
+    margin-left: 685px;}}
 @media screen and (max-width: 1080px){
-    
 .contact-links{
-    background-color: transparent;
-    width: 400px;
-    padding-right: 0;
-    padding-left: 0;
-    margin-top: -65px;
-    margin-left: 480px;}}
+    margin-left: 495px;}}
 @media screen and (max-width: 900px){
-    
 .contact-links{
-    background-color: transparent;
-    width: 400px;
-    padding-right: 0;
-    padding-left: 0;
     margin-top: 0px;
     margin-left: -20px;}}
 
@@ -309,11 +312,12 @@ animation-delay: 1.6s;}
 
 
 .nav-icon:hover{
+    transition-delay: 2s;
 	-moz-transform: rotate(90deg);
 	-webkit-transform: rotate(90deg);
 	-ms--transform: rotate(90deg);
 	transform: rotate(90deg);
-    opacity: 0.3;
+    opacity: 0.5;
 	-webkit-transition: all 0.5s;
 	-moz-transition: all 0.5s;
 	-o-transition: all 0.5s;
