@@ -167,9 +167,7 @@ a.icoMail{
 	transition: all 1s;}
 
 
-@media screen and (min-width: 1580px max-width: 1580px;){
-.contact-links{
-    margin-left: 1915px!important;}}
+
 @media screen and (min-width: 1580px){
 .contact-links{
     margin-left: 1315px!important;}}
