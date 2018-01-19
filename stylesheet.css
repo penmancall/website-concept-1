@@ -1,5 +1,5 @@
 .navbar-inverse{
-    background-color: transparent;
+    background-color: white;
     border: none !important;}
 .navbar-brand{
     font-family: "Pacifico";
@@ -9,7 +9,7 @@
 .navbar-toggle{
     margin-top: 30px;
     padding: 20px;
-    background-color: darkgrey !important;
+    background-color: darkgrey;
     opacity: 0.5;
     transition: opacity 0.5s;
     border: none;}
@@ -17,8 +17,22 @@
     opacity: 1;
     transition: opacity 0.5s;}
 .dropdown{
+    color: black!important;
     margin-top: 25px;
     margin-right: 0px;}
+.contact-me{
+    color: darkgrey;}
+.contact-me:hover{
+    color: lightgrey;}
+.academic-history{
+    color: darkgrey;}
+.academic-history:hover{
+    color: lightgrey;}
+.resume{
+    color: darkgrey;}
+.resume:hover{
+    color: lightgrey;}
+
 
 
 
@@ -36,6 +50,7 @@
     text-align: left;
     padding-left: 20px;}
 .text-heading{
+    color: black!important;
     font-size: 5em!important;
     font-family: "Roboto";
     font-weight: 900;}
@@ -242,7 +257,17 @@ a.icoMail{
 	    display: inline;}
     ul.social-buttons li{
 	    display: inline;
-        margin: 0 3px;}}
+        margin: 0 3px;}
+    .nav-icon{
+        width: 70px!important;
+        padding-top: 18px;}}
+
+
+
+
+
+
+
 
 /** fade in animations**/
 .animate {
@@ -342,8 +367,6 @@ animation-delay: 2.8s;}
 	-o-transition: all 0.5s;
 	-ms-transition: all 0.5s;
 	transition: all 0.5s;}
-
-
 .nav-icon{
     width: 120px;
     height: auto;
@@ -354,24 +377,84 @@ animation-delay: 2.8s;}
 	-ms-transition: all 1s;
 	transition: all 1s;}
 
-
-
-
-
-
-
-
 .row{
     width: 100%;
     max-width: 100% !important;
     padding-left: 20px;
-    padding-right: 20px;
-}
+    padding-right: 20px;}
 
-.col-sm-6 col-md-4{
+.col-sm-6{
+    border: none;
+}
     
 }
 .thumbnail{
-
-
+    background-color: transparent;
+    border: none;
 }
+
+*{
+    border: none!important;
+}
+
+.first-icon{
+    background-color: transparent;
+    width: 300px;
+    opacity: 1;
+    transition: opacity 0.5s;}
+.second-icon{
+    background-color: transparent;
+    width: 300px;
+    opacity: 1;
+    transition: opacity 0.5s;}
+.third-icon{
+    background-color: transparent;
+    width: 300px;
+    opacity: 1;
+    transition: opacity 0.5s;}
+.third-icon:hover{
+    background-color: transparent;
+    width: 300px;
+    opacity: 0.5;
+    transition: opacity 0.5s;}
+.second-icon:hover{
+    background-color: transparent;
+    width: 300px;
+    opacity: 0.5;
+    transition: opacity 0.5s;}
+.first-icon:hover{
+    background-color: transparent;
+    width: 300px;
+    opacity: 0.5;
+    transition: opacity 0.5s;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
