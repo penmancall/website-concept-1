@@ -382,20 +382,13 @@ animation-delay: 2.8s;}
     max-width: 100% !important;
     padding-left: 20px;
     padding-right: 20px;}
-
-.col-sm-6{
-    border: none;
-}
-    
-}
+ 
 .thumbnail{
     background-color: transparent;
-    border: none;
-}
+    border: none;}
 
 *{
-    border: none!important;
-}
+    border: none!important;}
 
 .first-icon{
     background-color: transparent;
@@ -426,14 +419,40 @@ animation-delay: 2.8s;}
     background-color: transparent;
     width: 300px;
     opacity: 0.5;
-    transition: opacity 0.5s;
+    transition: opacity 0.5s;}
+
+.caption{
+    text-align: center;}
+
+.Contact-Me, .My-Work, .About-Me{
+    color: darkgray;
+    padding-top: auto;
+    font-family: "Roboto";
+    font-weight: 400!important;
+    font-size: 1.4em!important;}
+
+
+    
+    
+    
+    
 
 
 
 
 
 
+/**about me html**/
 
+.About{
+    font-family: "Roboto";
+    font-weight: 400;
+        color: darkgray;
+    padding-top: auto;
+    font-family: "Roboto";
+    font-weight: 400!important;
+    font-size: 1em!important;
+}
 
 
 
