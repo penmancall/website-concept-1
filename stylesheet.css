@@ -451,7 +451,7 @@ animation-delay: 2.8s;}
     padding-top: auto;
     font-family: "Roboto";
     font-weight: 400!important;
-    font-size: 1em!important;
+    font-size: 1.2em!important;
 }
 
 
@@ -462,6 +462,13 @@ animation-delay: 2.8s;}
 
 
 
+.col-sm-4{
+    padding-left: 15px;
+    padding-right: 15px;}
+#solidworks{
+    color: #F03434;}
+#Rhinoceros{
+    color: #96281B;}
 
 
 
