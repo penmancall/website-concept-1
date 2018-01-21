@@ -1,41 +1,10 @@
-.navbar-inverse{
-    background-color: white;
-    border: none !important;}
-.navbar-brand{
-    font-family: "Pacifico";
-    font-size: 1.5em;
-    padding-top: 1.1em;}
-
-.navbar-toggle{
-    margin-top: 30px;
-    padding: 20px;
-    background-color: darkgrey;
-    opacity: 0.5;
-    transition: opacity 0.5s;
-    border: none;}
-.navbar-toggle:hover{
-    opacity: 1;
-    transition: opacity 0.5s;}
-.dropdown{
-    color: black!important;
-    margin-top: 25px;
-    margin-right: 0px;}
-.contact-me{
-    color: darkgrey;}
-.contact-me:hover{
-    color: lightgrey;}
-.academic-history{
-    color: darkgrey;}
-.academic-history:hover{
-    color: lightgrey;}
-.resume{
-    color: darkgrey;}
-.resume:hover{
-    color: lightgrey;}
-
-
-
-
+.navbar-nav {
+  position: sticky;
+  width: 100%;
+  text-align: center;}
+.navbar-nav li{
+  float: none;
+  display: inline-block;}
 
 
 /**.fa is social icons in navbar**/
@@ -81,7 +50,7 @@
     padding-right: 0;
     padding-left: 0;
     margin-top: -70px;
-    margin-left: 965px}
+    margin-left: 945px}
 
 /* footer social icons */
 ul.social-buttons{
@@ -183,21 +152,23 @@ a.icoMail{
 
 
 
-@media screen and (min-width: 1580px){
+
+
+@media screen and (min-width: 1686px){
+    .contact-links{
+    margin-left: 91.5em!important;}}
+@media screen and (min-width: 1499px){
 .contact-links{
-    margin-left: 1315px!important;}}
-@media screen and (min-width: 1400px){
-.contact-links{
-    margin-left: 1125px;}}
+    margin-left: 78em;}}
 @media screen and (max-width: 1280px){
 .contact-links{
-    margin-left: 835px;}}
+    margin-left: 825px;}}
 @media screen and (max-width: 1120px){
 .contact-links{
-    margin-left: 685px;}}
+    margin-left: 675px;}}
 @media screen and (max-width: 1080px){
 .contact-links{
-    margin-left: 495px;}}
+    margin-left: 485px;}}
 @media screen and (max-width: 900px){
 .contact-links{
     margin-top: 0px;
@@ -244,7 +215,6 @@ a.icoMail{
 	    line-height:25px;
 	    text-align: center;}
     .contact-links{
-        padding-right:;
         width: 100%;
         margin-top:  0;
         text-align: center;
@@ -381,7 +351,8 @@ animation-delay: 2.8s;}
     width: 100%;
     max-width: 100% !important;
     padding-left: 20px;
-    padding-right: 20px;}
+    padding-right: 20px;
+    margin-bottom: 4em;}
  
 .thumbnail{
     background-color: transparent;
@@ -444,6 +415,9 @@ animation-delay: 2.8s;}
 
 /**about me html**/
 
+.jumbotron-2{
+    margin-bottom: -2em!important;}
+
 .About{
     font-family: "Roboto";
     font-weight: 400;
@@ -451,8 +425,8 @@ animation-delay: 2.8s;}
     padding-top: auto;
     font-family: "Roboto";
     font-weight: 400!important;
-    font-size: 1.2em!important;
-}
+    font-size: 1.2em!important;}
+
 
 
 
@@ -465,17 +439,35 @@ animation-delay: 2.8s;}
 .col-sm-4{
     padding-left: 15px;
     padding-right: 15px;}
-#solidworks{
-    color: #F03434;}
-#Rhinoceros{
-    color: #96281B;}
 
 
+.pic-1{
+    width: 100%;}
 
 
-
-
-
+.intrinsic-container {
+  position: relative;
+  height: 0;
+  overflow: hidden;
+}
+ 
+/* 16x9 Aspect Ratio */
+.intrinsic-container-16x9 {
+  padding-bottom: 56.25%;
+}
+ 
+/* 4x3 Aspect Ratio */
+.intrinsic-container-4x3 {
+  padding-bottom: 75%;
+}
+ 
+.intrinsic-container iframe {
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
 
 
 

@@ -21,39 +21,28 @@
     
     
   <body>
-
-<nav class="navbar navbar-inverse">
+<nav class="navbar navbar-default" role="navigation">
   <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
-        
-      <!--drop down button when viewport zooms past 200%-->
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
- 
-        <div class="nav-icon animate fadeIn"><a href="index.html" title="Home"><img class="Navicon" src="Navicon.svg"></a></div>
     </div>
 
-
+    <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="pull-left active"><a href="index.html">Home</a></li>
 
-        <ul class="dropdown nav navbar-nav navbar-right">
-          <li>
-              <a href="#"><p class="nav-right contact-me animate fadeIn">contact me</p></a>
-          </li>
-          <li>
-              <a href="#"><p class="nav-right academic-history animate fadeIn">academic history</p></a>
-          </li>
-          <li>
-              <a href="#"><p class="nav-right resume animate fadeIn">resume</p></a>
-          </li>
-          </ul>
-    </div>
-  </div>
-</nav>
-
+        <li class="social pull-right"><a href="document.pdf" target="_blank">Academic History</a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>  
 
 
 
@@ -93,17 +82,17 @@
   </div>
   <div class="col-sm-6 col-md-4">
     <div class="thumbnail">
-      <img class="second-icon" src="my-work.svg" alt="my work">
+        <a href="About.html#target"><img class="second-icon" src="my-work.svg" alt="my work"></a>
       <div class="caption">
-        <h3 class="My-Work">My Work</h3>
+          <h3 class="My-Work">My Work</h3>
       </div>
     </div>
   </div>
   <div class="col-sm-6 col-md-4">
     <div class="thumbnail">
-      <img class="third-icon" src="contact-me.svg" alt="contact me">
+      <a href="mailto:callum.penman@outlook.com"><img class="third-icon" src="contact-me.svg" alt="contact me"></a>
       <div class="caption">
-        <h3 class="Contact-Me">Contact Me</h3>
+          <h3 class="Contact-Me">Contact Me</h3>
       </div>
     </div>
   </div>
