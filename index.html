@@ -36,20 +36,22 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-        <li class="pull-left"><a href="index.html">Home</a></li>
-        <li class=><a href="About.html">About Me</a></li>
-          <li class="active"><a href="my-work.html">My Work</a></li>
-        <li><a href="mailto:callum.penman@outlook.com">Contact Me</a></li>
+        <li class="pull-left active"><a href="index.html">Home</a></li>
+          <li><a href="my-work.html">My Work</a></li>
         <li class="social pull-right"><a href="document.pdf" target="_blank">Academic History</a></li>
       </ul>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
 </nav>      
-
-
+<div class="col-sm-6">
 <div class="jumbotron">
   <h1 class="text-center text-heading animate fadeIn">Hi, I'm Callum</h1>
-                <div class="contact-links">
+    <p class="text-subheading animate fadeIn">I'm an industrial design graduate based in Wellington. I'm currently searching for graduate job opportunities. I studied at Victoria University, and completed a bachelor of design innovation majoring in industrial design in 2017. <a href="document.pdf" target="_blank">Click here</a> to view my academic history.<br><br> My experience includes three years of experience using CAD packages such as Solidworks and Rhinoceros to design for additive manufacturing technologies as well as other CNC machining techniques. My areas of expertise are 3d visualisation and rapid prototyping. I also enjoy a bit of web development & photography in my spare time. Feel free to check out my work and if you like what you see, let's <a href="mailto:callum.penman@outlook.com">get in touch</a>.</p>
+    </div>
+
+      </div>
+<div class="contact-links col-md-6">      
+
                     <ul class="social-buttons social-circle">
 
                         <li class="social-list"><a class="social-link icoFacebook animate fadeIn" href="https://www.facebook.com/profile.php?id=100018916020315" title="Facebook" target="_blank"><i class="fa fa-facebook"></i></a></li>
@@ -64,64 +66,15 @@
                         
                         <li class="social-list"><a class="social-link icoMail animate fadeIn" href="mailto:callum.penman@outlook.com" title="eMail"><i class="fa glyphicon-envelope"></i></a></li>
                     </ul>				
-				</div>
-  <p class="text-center text-subheading animate fadeIn">I'm an industrial design graduate based in Wellington.<br> I'm currently searching for graduate job opportunities.</p>
+
+
 
     
+</div>               
+<div class="footer animate fadeIn"><p>Callum Penman 2018 | <a href="mailto:callum.penman@outlook.com">eMail</a> | <a href="tel:+64273435040">Phone</a> | <a href="https://www.facebook.com/profile.php?id=100018916020315">Message</a></p>
+
 </div>
 
-<form class="form-horizontal" role="form" method="post" action="index.php">
-	<div class="form-group">
-		<label for="name" class="col-sm-2 control-label">Name</label>
-		<div class="col-sm-10">
-			<input type="text" class="form-control" id="name" name="name" placeholder="First & Last Name" value="<?php echo htmlspecialchars($_POST['name']); ?>">
-		
-		</div>
-	</div>
-	<div class="form-group">
-		<label for="email" class="col-sm-2 control-label">Email</label>
-		<div class="col-sm-10">
-			<input type="email" class="form-control" id="email" name="email" placeholder="example@domain.com" value="<?php echo htmlspecialchars($_POST['email']); ?>">
-			
-		</div>
-	</div>
-	<div class="form-group">
-		<label for="message" class="col-sm-2 control-label">Message</label>
-		<div class="col-sm-10">
-			<textarea class="form-control" rows="4" name="message"></textarea>
-			
-		</div>
-	</div>
-	<div class="form-group">
-		<label for="human" class="col-sm-2 control-label">2 + 3 = ?</label>
-		<div class="col-sm-10">
-			<input type="text" class="form-control" id="human" name="human" placeholder="Your Answer">
-		
-		</div>
-	</div>
-	<div class="form-group">
-		<div class="col-sm-10 col-sm-offset-2">
-			<input id="submit" name="submit" type="submit" value="Send" class="btn btn-primary">
-		</div>
-	</div>
-	<div class="form-group">
-		<div class="col-sm-10 col-sm-offset-2">
-		
-		</div>
-	</div>
-</form> 
-    </body>
+</body>
 </html>
 
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-  </body>
-</html>
