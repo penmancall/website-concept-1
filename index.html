@@ -15,7 +15,7 @@
       <!-- fontawesome for custom glyphs -->
       <script src="https://use.fontawesome.com/a47f5ff182.js"></script>
       <!-- google fonts -->
-      <link href="https://fonts.googleapis.com/css?family=Pacifico|Didact+Gothic|Roboto:900|Roboto:400" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Pacifico|Didact+Gothic|Roboto:900|Roboto:400|Lato:300,400,700" rel="stylesheet">
             <link type="text/css" href="stylesheet.css" rel="stylesheet">
   </head>
     
@@ -36,14 +36,15 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-        <li class="pull-left active"><a href="index.html">Home</a></li>
-
+        <li class="pull-left"><a href="index.html">Home</a></li>
+        <li class=><a href="About.html">About Me</a></li>
+          <li class="active"><a href="my-work.html">My Work</a></li>
+        <li><a href="mailto:callum.penman@outlook.com">Contact Me</a></li>
         <li class="social pull-right"><a href="document.pdf" target="_blank">Academic History</a></li>
       </ul>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
-</nav>  
-
+</nav>      
 
 
 <div class="jumbotron">
@@ -66,38 +67,94 @@
 				</div>
   <p class="text-center text-subheading animate fadeIn">I'm an industrial design graduate based in Wellington.<br> I'm currently searching for graduate job opportunities.</p>
 
+    
 </div>
 
 
 
 
-<div class="row animate fadeIn">
-  <div class="col-sm-6 col-md-4">
-    <div class="thumbnail">
-        <a href="About.html"><img class="first-icon" src="about-me.svg" alt="about me"></a>
-      <div class="caption">
-        <h3 class="About-Me">About Me</h3>
-      </div>
+        <div class="container">
+
+            <div class="row">
+
+                <div class="col-lg-8 col-lg-offset-2">
+
+                    <h1>Contact form Tutorial from <a href="http://bootstrapious.com">Bootstrapious.com</a></h1>
+
+                    <p class="lead">This is a demo for our tutorial dedicated to crafting working Bootstrap contact form with PHP and AJAX background.</p>
+
+                 <form id="contact-form" method="post" action="contact.php" role="form">
+
+    <div class="messages"></div>
+
+    <div class="controls">
+
+        <div class="row">
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label for="form_name">Firstname *</label>
+                    <input id="form_name" type="text" name="name" class="form-control" placeholder="Please enter your firstname *" required="required" data-error="Firstname is required.">
+                    <div class="help-block with-errors"></div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label for="form_lastname">Lastname *</label>
+                    <input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Please enter your lastname *" required="required" data-error="Lastname is required.">
+                    <div class="help-block with-errors"></div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label for="form_email">Email *</label>
+                    <input id="form_email" type="email" name="email" class="form-control" placeholder="Please enter your email *" required="required" data-error="Valid email is required.">
+                    <div class="help-block with-errors"></div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label for="form_phone">Phone</label>
+                    <input id="form_phone" type="tel" name="phone" class="form-control" placeholder="Please enter your phone">
+                    <div class="help-block with-errors"></div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="form-group">
+                    <label for="form_message">Message *</label>
+                    <textarea id="form_message" name="message" class="form-control" placeholder="Message for me *" rows="4" required="required" data-error="Please,leave us a message."></textarea>
+                    <div class="help-block with-errors"></div>
+                </div>
+            </div>
+            <div class="col-md-12">
+                <input type="submit" class="btn btn-success btn-send" value="Send message">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <p class="text-muted"><strong>*</strong> These fields are required. Contact form template by <a href="http://bootstrapious.com" target="_blank">Bootstrapious</a>.</p>
+            </div>
+        </div>
     </div>
-  </div>
-  <div class="col-sm-6 col-md-4">
-    <div class="thumbnail">
-        <a href="my-work.html"><img class="second-icon" src="my-work.svg" alt="my work"></a>
-      <div class="caption">
-          <h3 class="My-Work">My Work</h3>
-      </div>
-    </div>
-  </div>
-  <div class="col-sm-6 col-md-4">
-    <div class="thumbnail">
-      <a href="mailto:callum.penman@outlook.com"><img class="third-icon" src="contact-me.svg" alt="contact me"></a>
-      <div class="caption">
-          <h3 class="Contact-Me">Contact Me</h3>
-      </div>
-    </div>
-  </div>
-  
-</div>
+
+</form>
+                    
+                </div>
+
+            </div>
+
+        </div>
+
+        <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+        <script src="validator.js"></script>
+        <script src="contact.js"></script>
+    </body>
+</html>
+
       
       
       
