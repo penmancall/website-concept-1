@@ -476,7 +476,7 @@ section{
 @media screen and (max-width: 720px){
     .jumbotron{
         margin-top: -3em;
-        width: 100%!important;}
+        width: 95%!important;}
     .text-center{
         font-size: 2.5em!important;
         text-align: center;
@@ -485,7 +485,7 @@ section{
         width: 100%;}
     .text-subheading{
         text-align: center;
-        font-size: 0.9em!important;}
+        font-size: 1.3em!important;}
 
     .social-circle li.social-list a.social-link{
         display:inline-block;
@@ -504,8 +504,8 @@ section{
 	    text-align: center;}
     .contact-links{
         width: 100%;
-        margin-top: -5em;
-        margin-bottom: 1em;
+        margin-top: -3em;
+        margin-bottom: 5em;
         text-align: center;
         margin-left: auto;
         margin-right: auto;}
