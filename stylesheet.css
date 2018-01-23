@@ -485,7 +485,7 @@ section{
         width: 100%;}
     .text-subheading{
         text-align: center;
-        font-size: 0.75em!important;}
+        font-size: 0.9em!important;}
 
     .social-circle li.social-list a.social-link{
         display:inline-block;
@@ -495,12 +495,12 @@ section{
 	    -webkit-border-radius:50%;
 	    border-radius:50%;
 	    text-align:center;
-	    width: 40px;
-	    height: 40px;
-	    font-size:14px;}
+	    width: 35px;
+	    height: 35px;
+	    font-size:13px;}
     .social-circle li.social-list i{
 	    margin:0;
-	    line-height:40px;
+	    line-height:35px;
 	    text-align: center;}
     .contact-links{
         width: 100%;
@@ -518,7 +518,9 @@ section{
 	    display: inline;
         margin: 0 3px;}
     .footer{    
-        font-size: 0.9em;}}
+        padding-bottom: 1em;
+        padding-top: 0.75em;
+        font-size: 1em;}}
 
 
     
