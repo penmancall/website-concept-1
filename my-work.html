@@ -18,7 +18,10 @@
       <script src="https://use.fontawesome.com/a47f5ff182.js"></script>
       <!-- google fonts -->
       <link href="https://fonts.googleapis.com/css?family=Pacifico|Didact+Gothic|Roboto:900|Roboto:400" rel="stylesheet">
-            <link type="text/css" href="stylesheet.css" rel="stylesheet">
+      <!--script for photo gallery-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js"></script>
+      <!--my CSS-->
+      <link type="text/css" href="stylesheet.css" rel="stylesheet">
   </head>
     
     
@@ -43,61 +46,118 @@
       <ul class="nav navbar-nav">
         <li class="pull-left"><a href="index.html">Home</a></li>
           <li class="active"><a href="my-work.html">My Work</a></li>
-        <li class="social pull-right"><a href="document.pdf" target="_blank">Academic History</a></li>
       </ul>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
 </nav>      
-<div class="jumbotron jumbotron-2">
-  <h1 class="text-center text-heading animate fadeIn">My Work.</h1>
-                
-      </div>
-
 <section class="portfolio" id="portfolio">
 	<div class="container-fluid">
-		<div class="row animate fadeIn">
+		<div class="row">
 
-
+            
+            
+            
+            
+            
+			<div class="drop-down-buttons" align="center">  
+            <div class="btn-group btn-group-success ">
+	          <button class="btn btn-lg heading-button filter-no-drop" type="button" disabled>Filter</button>
+	          <button data-toggle="dropdown" class="btn btn-lg heading-button dropdown-toggle" type="button" data-filter="caret">
+		      <span class="caret"></span></button>
+	          <ul class="dropdown-menu">
+              <li><button class="heading-button btn btn-drop" data-filter="all">Show All</button></li>
+              <li><button class="heading-button btn btn-drop" data-filter="category1">CAD</button></li>
+              <li><button class="heading-button btn btn-drop" data-filter="category2">Prototypes</button></li>
+	          </ul>
+            </div>
+            </div>
 			
 			<br/>
 
-            <div class="gallery_product col-sm-3 col-xs-6 filter category1">
-                    <img class="img-responsive" alt="" src="https://i.imgur.com/y6plwZG.jpg" />
+
+            <div class="grid-item col-sm-3 col-xs-6 filter category1 Quickfold">
+                    <img class="img-responsive" alt="" src="https://i.imgur.com/LEK4KIo.png">
                     <div class='img-info'>
-                        <h4>Image Title 1</h4>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <h4 class="grid-heading">Quick Fold Chair</h4>
+						<p class="grid-para">Digital fabrication concept.</p>
+                    </div>
+            </div>
+            
+            
+                        <div class="grid-item col-sm-3 col-xs-6 filter category1 Micro">
+                    <img class="img-responsive" alt="" src="https://i.imgur.com/fP8NPEU.png">
+                    <div class='img-info'>
+                        <h4 class="grid-heading">Charge on the go</h4>
+						<p class="grid-para">Recharging station concept for Micro Mobility.</p>
+                    </div>
+            </div>
+            
+                        <div class="grid-item col-sm-3 col-xs-6 filter category1 Pin">
+
+                    <img class="img-responsive" alt="" src="https://i.imgur.com/bau1Oe7.png">
+                    <div class='img-info'>
+                        <h4 class="grid-heading">Pin Moving mechanism</h4>
+						<p class="grid-para">Solidworks assembly of "window wiper" mechanism.</p>
+                    </div>
+            </div>
+            
+            
+            
+                        
+            
+            
+            <div class="grid-item col-sm-3 col-xs-6 filter category2 Sleeve">
+                    <img class="img-responsive" alt="" src="https://i.imgur.com/vn7YM5M.png">
+                    <div class='img-info'>
+                        <h4 class="grid-heading">Twin ply sleeve</h4>
+						<p class="grid-para">Reduced coffee sleeve prototype.</p>
+                    </div>
+            </div>
+            
+            
+            
+            <div class="grid-item col-sm-3 col-xs-6 filter category2 Oxidate">
+                    <img class="img-responsive" alt="" src="https://i.imgur.com/ZkZw54L.png">
+                    <div class='img-info'>
+                        <h4 class="grid-heading">Oxidate Speaker</h4>
+						<p class="grid-para">3D printed desktop speaker prototype.</p>
+                    </div>
+            </div>
+            
+                        <div class="grid-item col-sm-3 col-xs-6 filter category2 Connex">
+                    <img class="img-responsive" alt="" src="https://i.imgur.com/Yr2MRd2.png">
+                    <div class='img-info'>
+                        <h4 class="grid-heading">Human physiology</h4>
+						<p class="grid-para">SLA printed rings.</p>
+                    </div>
+            </div>
+            
+                                    <div class="grid-item col-sm-3 col-xs-6 filter category1 Road">
+                    <img class="img-responsive" alt="" src="https://i.imgur.com/gb4bZp7.png">
+                    <div class='img-info'>
+                        <h4 class="grid-heading">Smart Road</h4>
+						<p class="grid-para">Future concept.</p>
+                    </div>
+            </div>
+            
+
+                                  <div class="grid-item col-sm-3 col-xs-6 filter category2 Jacob">
+                    <img class="img-responsive" alt="" src="https://i.imgur.com/7BiPoVp.png">
+                    <div class='img-info'>
+                        <h4 class="grid-heading">Binaural Cradle</h4>
+						<p class="grid-para">Project for The Comfort Group.</p>
                     </div>
             </div>
 
-            <div class="gallery_product col-sm-3 col-xs-6 filter category2">
 
-                    <img class="img-responsive" alt="" src="https://i.imgur.com/o4ny8Jv.png" />
-                    <div class='img-info'>
-                        <h4>Image Title 2</h4>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                </div>
-            </div>
-
-            <div class="gallery_product col-sm-3 col-xs-6 filter category3">
-                    <img class="img-responsive" alt="" src="https://i.imgur.com/omQJrGi.png" />
-                    <div class='img-info'>
-                        <h4>Image Title 3</h4>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    </div>
-                </a>
-            </div>
-
-            <div class="gallery_product col-sm-3 col-xs-6 filter category1">
-                    <img class="img-responsive" alt="" src="https://i.imgur.com/e7xbMek.png" />
-                    <div class='img-info'>
-                        <h4>Image Title 4</h4>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    </div>
-            </div>
-
+           
+		</div>
 	</div>
 </section>
+<script src="script.js"></script>
+<div class="footer animate fadeIn"><p>Callum Penman 2018 | <a href="mailto:callum.penman@outlook.com">eMail</a> | <a href="tel:+64273435040">Phone</a> | <a href="https://www.facebook.com/profile.php?id=100018916020315" target="_blank">Message</a> | <a href="document.pdf" target="_blank">Academic History</a></p>
 
+</div>
       
       
       

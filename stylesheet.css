@@ -1,13 +1,14 @@
+.navbar{
+    background-color: transparent;
+}
+
+
 .navbar-nav {
-  position: sticky;
   width: 100%;
   text-align: center;}
-.navbar-nav li{
-  float: none;
-  display: inline-block;}
 
 
-/**.fa is social icons in navbar**/
+/**.fa is the font size of the contat icons**/
 .fa{
     font-size: 2.2em!important;}
 
@@ -19,6 +20,7 @@
     text-align: left;
     padding-left: 20px;}
 .text-heading{
+    padding-left: 0;
     color: black!important;
     font-size: 5em!important;
     font-family: "Roboto";
@@ -350,107 +352,6 @@ animation-delay: 2.8s;}
 
 
 
-.col-sm-4{
-    padding-left: 0px;
-    padding-right: 0px;}
-
-
-.pic-1{
-    width: 100%;}
-
-
-.intrinsic-container {
-  position: relative;
-  height: 0;
-  overflow: hidden;
-}
- 
-/* 16x9 Aspect Ratio */
-.intrinsic-container-16x9 {
-  padding-bottom: 56.25%;
-}
- 
-/* 4x3 Aspect Ratio */
-.intrinsic-container-4x3 {
-  padding-bottom: 75%;
-}
- 
-.intrinsic-container iframe {
-  position: absolute;
-  top:0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-}
-
-
-*{
-	padding:0;
-	margin:0;
-}
-
-/*	general	*/
-
-section{
-    padding: 50px 0;
-}
-
-/*	gallery */
-
-.gallery-title{
-    font-size: 36px;
-    color: #3F6184;
-    text-align: center;
-    font-weight: 500;
-    margin-bottom: 70px;
-}
-.filter-button{
-    font-size: 18px;
-    border: 2px solid #3F6184;
-	padding:5px 10px;
-    text-align: center;
-    color: #3F6184;
-    margin-bottom: 30px;
-	background:transparent;
-}
-.filter-button:hover,
-.filter-button:focus,
-.filter-button.active{
-    color: #ffffff;
-    background-color:#3F6184;
-	outline:none;
-}
-.gallery_product{
-    margin: 0px;
-	padding:0;
-	position:relative;
-}
-.gallery_product .img-info{
-	position: absolute;
-    background: rgba(0,0,0,0.5);
-    left: 0;
-    right: 0;
-    bottom: 0;
-    padding: 20px;
-	overflow:hidden;
-	color:#fff;
-	top:0;
-	display:none;
-	   -webkit-transition: 2s;
-    transition: 2s;
-}
-
-.gallery_product:hover .img-info{
-	display:block;
-   -webkit-transition: 2s;
-    transition: 2s;
-}
-
-/*	end gallery */
-
-
-
-
 
 
 
@@ -518,6 +419,8 @@ section{
 	    display: inline;
         margin: 0 3px;}
     .footer{    
+        font-family: "Lato";
+        font-weight: 700;
         padding-bottom: 1em;
         padding-top: 0.75em;
         font-size: 1em;}}
@@ -527,3 +430,172 @@ section{
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*	general	*/
+
+section{
+    padding: 50px 0;
+}
+
+/*	gallery */
+.btn-group:hover{
+    transition: all 0.15s;
+    transition-delay: 0.1s;
+    transform: scale(1.1);}
+
+.heading-button{
+    background: transparent;
+    opacity: 1!important;
+    border: 1px solid white;}
+.filter-no-drop{
+    cursor: default!important;}
+.btn-drop{
+    margin: auto;
+    text-align: left;
+    width: 100%;}
+.btn-group{
+    transition: all 0.15s;
+    background-color: transparent;
+    border: none;}
+
+/*padding & margin 0 to prevent cursor hopping and messing up to scale effect on btn-group*/
+.dropdown-menu{
+    padding-top: 0!important;
+    margin-bottom: 0!important;
+    margin-top: 0!important;}
+.btn-group-success .dropdown-menu {
+  border: none!important;
+  background-color: transparent!important;}
+.btn-group-success .dropdown-menu li > a:hover,
+.btn-group-success .dropdown-menu li > a:focus {
+  background-color: #5cb85c !important;}
+
+.heading-button:hover,
+.heading-button:focus,
+.heading-button.active{
+
+	outline:none;
+}
+.grid-item{
+    margin: 0em;
+	padding: 2em;
+	position:relative;
+}
+.grid-item .img-info{
+	position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 20px;
+	overflow:hidden;
+	color:#fff;
+	top:0;
+	display:none;
+	   -webkit-transition: 2s;
+    transition: 2s;}
+
+h4{
+    font-weight: 700;
+}
+
+.img-info, .grid-heading, .grid-para{
+    text-align: center;
+    padding-top: 30px;
+    color: black;
+    font-family: "roboto";
+}
+
+.grid-item:hover .img-info{
+	display:block;
+   -webkit-transition: 2s;
+    transition: 2s;
+}
+
+/*	end gallery */
+
+.grid-item:hover .img-responsive{
+    opacity: 0.5!important;
+}
+.grid-item:hover{
+    transform: scale(1.15)!important;}
+.grid-item{
+    transition: transform 0.5s;
+    overflow: hidden;
+}
